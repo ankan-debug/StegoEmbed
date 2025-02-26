@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 3️⃣ **Run the application:**  
 ```bash
-python stego.py
+python StegoEmbed.py
 ```
 
 ### **🔹 Steps to Run on Kali Linux**
@@ -73,7 +73,7 @@ pip3 install opencv-python tkinter
 
 #### **6️⃣ Run the Application**  
 ```bash
-python3 steganography_app.py
+python3 StegoEmbed.py
 ```
 🚀 **Your GUI-based steganography tool should now open!**
 
@@ -95,7 +95,7 @@ pip3 install opencv-python
 ✅ **Problem:** App doesn’t open  
 **Solution:** Ensure all dependencies are installed and try running:  
 ```bash
-python3 steganography_app.py
+python3 StegoEmbed.py
 ```
 
 ---
