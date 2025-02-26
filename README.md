@@ -35,7 +35,74 @@ pip install -r requirements.txt
 python stego.py
 ```
 
+### **🔹 Steps to Run on Kali Linux**
+#### **1️⃣ Open the Terminal**  
+Press **`Ctrl + Alt + T`** or search for **"Terminal"** in the Kali menu.
+
+#### **2️⃣ Check if Python is Installed**  
+Run:  
+```bash
+python3 --version
+```
+If Python is not installed, install it using:  
+```bash
+sudo apt update && sudo apt install python3 python3-pip -y
+```
+
+#### **3️⃣ Install Required Dependencies**  
+Your tool uses **Tkinter and OpenCV**, so install them with:  
+```bash
+sudo apt install python3-tk -y  # Install Tkinter for GUI
+pip3 install opencv-python
+```
+
+#### **4️⃣ Clone Your GitHub Repository**  
+```bash
+git clone https://github.com/ankan-debug/StegoEmbed.git
+cd StegoEmbed
+```
+
+#### **5️⃣ Install the Required Python Libraries**  
+```bash
+pip3 install -r requirements.txt
+```
+If `requirements.txt` is missing, install dependencies manually:  
+```bash
+pip3 install opencv-python tkinter
+```
+
+#### **6️⃣ Run the Application**  
+```bash
+python3 steganography_app.py
+```
+🚀 **Your GUI-based steganography tool should now open!**
+
 ---
+
+### **🔹 Troubleshooting Common Issues**
+✅ **Problem:** `ModuleNotFoundError: No module named 'tkinter'`  
+**Solution:** Install Tkinter using:  
+```bash
+sudo apt install python3-tk -y
+```
+
+✅ **Problem:** `ImportError: No module named cv2`  
+**Solution:** Install OpenCV using:  
+```bash
+pip3 install opencv-python
+```
+
+✅ **Problem:** App doesn’t open  
+**Solution:** Ensure all dependencies are installed and try running:  
+```bash
+python3 steganography_app.py
+```
+
+---
+
+### **💡 Next Steps**
+Try encoding and decoding messages in images and let me know if you face any issues! 🚀😊
+
 
 ## 🎯 Usage  
 
