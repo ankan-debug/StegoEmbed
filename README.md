@@ -1,7 +1,6 @@
 # StegoEmbed
 🔒 Secure Data Hiding in Images Using Steganography – A Python-based tool that embeds secret messages in images using pixel manipulation. Uses LSB encoding for minimal distortion. Supports encoding, decoding, and optional passcode protection. Fast, efficient, and cross-platform. 🚀 
 
-```markdown
 # 🔒 Image Steganography GUI  
 
 A Python-based steganography tool that lets you **hide and extract secret messages** within images using a **graphical user interface (GUI)** built with **Tkinter**.  
@@ -20,8 +19,10 @@ A Python-based steganography tool that lets you **hide and extract secret messag
 
 ## 📥 Installation  
 
-1️⃣ **Clone the repository:**  
+1️⃣ **Clone the repository:**
+
 ```bash
+
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
 ```
@@ -71,13 +72,5 @@ Contributions are welcome! Fork the repository, improve the code, and submit a p
 
 ## 📧 Contact  
 For any questions or suggestions, feel free to open an issue or reach out!  
-```
+sahaankan628@gmail.com
 
----
-
-### **🔹 What’s Special About This README?**  
-✅ **Structured and easy to read**  
-✅ **Clear step-by-step instructions**  
-✅ **Looks great on GitHub with emojis 🎨**  
-
-💡 **Would you like to add encryption (AES) or other features?** I can update the README accordingly! 🚀😊
