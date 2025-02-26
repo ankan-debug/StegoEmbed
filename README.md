@@ -23,8 +23,8 @@ A Python-based steganography tool that lets you **hide and extract secret messag
 
 ```bash
 
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/ankan-debug/StegoEmbed.git
+cd StegoEmbed
 ```
 2️⃣ **Install dependencies:**  
 ```bash
